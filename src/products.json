@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "name":"Coca-Cola 1 L",
+        "brand":"Coca-Cola",
+        "category":"Drinks",
+        "price":{
+            "tl":5.95,
+            "eur":2
+        },
+        "img":"/images/cocacola.png"
+    },
+    {
+        "id":2,
+        "name":"Big Mac",
+        "brand":"McDonald's",
+        "category":"Foods",
+        "price":{
+            "tl":37.99,
+            "eur":9.49
+        },
+        "img":"/images/bigmac.png"
+    },
+    {
+        "id":3,
+        "name":"Netflix",
+        "brand":"Netflix",
+        "category":"Tv",
+        "price":{
+            "tl":26.99,
+            "eur":7.99
+        },
+        "img":"/images/netflix.png"
+    },
+    {
+        "id":4,
+        "name":"Macbook Pro 14'",
+        "brand":"Apple",
+        "category":"Computer",
+        "price":{
+            "tl":29.999,
+            "eur":2.249
+        },
+        "img":"/images/macbookpro.png"
+    },
+    {
+        "id":5,
+        "name":"PlayStation 5",
+        "brand":"Sony",
+        "category":"Game Console",
+        "price":{
+            "tl":11.999,
+            "eur":499
+        },
+        "img":"/images/playstation5.png"
+    },
+    {
+        "id":6,
+        "name":"İphone 13 Pro",
+        "brand":"Apple",
+        "category":"Mobile",
+        "price":{
+            "tl":21.499,
+            "eur":1.149
+        },
+        "img":"/images/iphone-13pro.png"
+    }
+]
