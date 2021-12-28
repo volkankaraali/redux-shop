@@ -1,7 +1,7 @@
 import { Affix, Transition } from '@mantine/core'
 import { useWindowScroll } from '@mantine/hooks';
 import React from 'react'
-import { BsFillBasketFill, BsFillArrowUpCircleFill, BsArrowUpShort } from "react-icons/bs";
+import { BsFillBasketFill, BsArrowUpShort } from "react-icons/bs";
 
 function ScrollButtons() {
     const [scroll, scrollTo] = useWindowScroll();

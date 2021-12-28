@@ -5,8 +5,6 @@ import { selectBasket, setDisplayBasket, setDisplayBill } from '../../redux/bask
 import { BiSad, BiSmile } from "react-icons/bi";
 
 import * as htmlToImage from 'html-to-image';
-import { toPng } from 'html-to-image';
-
 import download from 'downloadjs';
 
 
@@ -15,9 +13,6 @@ function Bill({ tlPrice, eurPrice, clearBasket }) {
 
     const basket = useSelector(selectBasket)
     const totalMoney = useSelector(state => state.shops.money)
-
-
-
 
     const tlRemain = totalMoney - tlPrice()
     const eurRemain = totalMoney - eurPrice()
